@@ -1,0 +1,14 @@
+.DS_Store
+.profile-config-tool
+pingfederate.lic
+pingaccess.lic
+PingDirectory.lic
+.DS_Store
+.terraform
+infra.tfout
+terraform.tfstate*
+.terraform.tfstate.lock.info
+.tfvars
+*.tfvars
+.profile-base
+.profile-tmp
