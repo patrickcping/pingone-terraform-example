@@ -20,7 +20,7 @@ resource "pingone_environment" "my_environment" {
   name        = "New Environment"
   description = "My new environment"
   type        = "SANDBOX"
-  region      = "EU"
+  region      = var.p1_region
   license_id  = var.p1_licenseId
 
   default_population {
